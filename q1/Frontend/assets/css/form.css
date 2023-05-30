@@ -1,0 +1,40 @@
+*{
+    overflow-x: hidden;
+}
+body{
+
+    background-color: #40198f;
+}
+
+form{
+
+    color: white;
+    font-size: 20px;
+}
+
+.registration-form {
+    top: 75px;
+    position: relative;
+    left: 757px;
+}
+
+.ip-field{
+
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    margin: 10px;
+}
+
+.register-btn{
+
+    position: relative;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

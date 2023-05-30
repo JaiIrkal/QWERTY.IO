@@ -1,25 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/about.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+
+  <!-- Bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+
+  <!-- W3 school font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://kit.fontawesome.com/b88ccaa2bd.js" crossorigin="anonymous"></script>
+
+  <!-- fade in zoom in animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/form.css">
+
+  <title>QWERTY.IO | Register</title>
 </head>
 <body>
-    <form method="POST">
-      name:  <input type="text" name="name"> <br>
-      usn:  <input type="text" name="usn"> <br>
-      event:  <input type="text" name="event"> <br>
-      email:  <input type="email" name="email"> <br>
-      phno:  <input type="number" name="phno"> <br>
-      branch:  <input type="text" name="branch"> <br>
-      sem:  <input type="text" name="semester"> <br>
-      gender:  <input type="text"name="gender"> <br>
-      localite:  <input type="text"name="localite"> <br>
-      laptop: <input type="text"name="laptop"> <br>
-    <button type="submit" id="js">Submit</button>
-    </form>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/" style="color: black;"><img id="logo" src="images/logo.png" alt=""></a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="text-white fa fa-bars "></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto  ">
+                <li class="nav-item mx-4" >
+                    <a class="nav-link active" aria-current="page" style="color: white !important; font-size: 20px;letter-spacing: 1px; font-weight: 700;"href="/">Home</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link active" aria-current="page"  style="color: white !important; font-size: 18px;" href="/about_qwerty">About QWERTY</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link active" aria-current="page"  style="color: white !important; font-size: 18px;" href="/activities">Activities</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link active" aria-current="page"  style="color: white !important; font-size:18px;" href="/team">Team QWERTY</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link active" aria-current="page" style="color: white !important; font-size: 18px;" href="/contact">Contact us</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link active" aria-current="page" style="color: white !important; font-size: 18px;" href="/">Login</a>
+                </li>
+            </ul>              
+        </div>
+    </div>
+    </nav>
+    <div class="registration-form">
+      <form method="POST">
+        name:  <input type="text" name="name" class="ip-field" autocomplete="off"> <br>
+        usn:  <input type="text" name="usn" class="ip-field" autocomplete="off"> <br>
+        event:  <select type="text" name="event" class="ip-field">
+          <option value="Backend Web Development">Backend Web Development Workshop</option>
+        </select> <br>
+        email:  <input type="email" name="email" class="ip-field" autocomplete="off"> <br>
+        phno:  <input type="number" name="phno" class="ip-field" autocomplete="off"> <br>
+        branch:  <select type="text" name="branch" class="ip-field">
+          <option value="CSE">CSE</option>
+          <option value="ISE">ISE</option>
+          <option value="AI/ML">AI/ML</option>
+          <option value="ECE">ECE</option>
+          <option value="EEE">EEE</option>
+          <option value="MECH">MECH</option>
+          <option value="CIVIL">CIVIL</option>
+        </select> <br>
+        sem:  <select type="text" name="semester" class="ip-field">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select> <br>
+        gender:  <select type="text"name="gender" class="ip-field">
+          <option value="yes">Male</option>
+          <option value="no">Female</option>
+        </select> <br>
+        localite:  <select type="text"name="localite" class="ip-field">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select> <br>
+        laptop: <select type="text"name="laptop" class="ip-field">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select> <br>
+      <button type="submit" id="js" class="register-btn">Register</button>
+      </form>
+    </div>
     
 </body>
 </html>

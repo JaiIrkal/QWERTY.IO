@@ -16,6 +16,7 @@ body{
 .navbar{
     /* background-color: #39065d; */
     /* background-image: linear-gradient(to right,#39065d, #46066b); */
+    margin-right: 50px;
 }
 #logo{
     width: 40px;
