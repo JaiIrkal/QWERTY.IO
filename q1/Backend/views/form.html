@@ -69,14 +69,16 @@
     </nav>
     <div class="registration-form">
       <form method="POST">
-        name:  <input type="text" name="name" class="ip-field" autocomplete="off"> <br>
-        usn:  <input type="text" name="usn" class="ip-field" autocomplete="off"> <br>
-        event:  <select type="text" name="event" class="ip-field">
+        <label>Name : </label><input type="text" name="name" class="ip-field" autocomplete="off"> <br>
+        <label class="usn-lbl">Usn : </label><input type="text" name="usn" class="ip-field" autocomplete="off"> <br>
+        <label class="evnt-lbl">Event : </label>
+        <select type="text" name="event" class="ip-field" id="sel-event">
           <option value="Backend Web Development">Backend Web Development Workshop</option>
         </select> <br>
-        email:  <input type="email" name="email" class="ip-field" autocomplete="off"> <br>
-        phno:  <input type="number" name="phno" class="ip-field" autocomplete="off"> <br>
-        branch:  <select type="text" name="branch" class="ip-field">
+        <label>Email : </label><input type="email" name="email" class="ip-field" autocomplete="off"> <br>
+        <label>Phno : </label><input type="number" name="phno" id="phone" class="ip-field" autocomplete="off"> <br>
+        <label class="branch-lbl">Branch : </label>
+        <select type="text" name="branch" class="ip-field" id="sel-branch">
           <option value="CSE">CSE</option>
           <option value="ISE">ISE</option>
           <option value="AI/ML">AI/ML</option>
@@ -85,27 +87,30 @@
           <option value="MECH">MECH</option>
           <option value="CIVIL">CIVIL</option>
         </select> <br>
-        sem:  <select type="text" name="semester" class="ip-field">
+        <label class="sem-lbl">Semester : </label>
+        <select type="text" name="semester" class="ip-field" id="sel-sem">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
         </select> <br>
-        gender:  <select type="text"name="gender" class="ip-field">
+        <label class="gender-lbl">Gender : </label>
+        <select type="text"name="gender" class="ip-field" id="sel-gender">
           <option value="yes">Male</option>
           <option value="no">Female</option>
         </select> <br>
-        localite:  <select type="text"name="localite" class="ip-field">
+        <label class="loc-lbl">Localite : </label>
+        <select type="text"name="localite" class="ip-field" id="sel-loc">
           <option value="yes">Yes</option>
           <option value="no">No</option>
         </select> <br>
-        laptop: <select type="text"name="laptop" class="ip-field">
+        <label class="lap-lbl">Laptop : </label>
+        <select type="text"name="laptop" class="ip-field" id="sel-lap">
           <option value="yes">Yes</option>
           <option value="no">No</option>
         </select> <br>
       <button type="submit" id="js" class="register-btn">Register</button>
       </form>
     </div>
-    
 </body>
 </html>

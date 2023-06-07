@@ -15,12 +15,12 @@ form{
 .registration-form {
     top: 75px;
     position: relative;
-    left: 757px;
+    left: 737px;
 }
 
 .ip-field{
 
-    border-radius: 15px;
+    border-radius: 7px;
     padding: 10px;
     border: none;
     margin: 10px;
@@ -37,4 +37,57 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+input{
+
+    background-color: rgb(201, 199, 199);
+    width: 450px;
+}
+
+select{
+
+    background-color: rgb(201, 199, 199);
+}
+
+label{
+
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 65px;
+}
+
+.usn-lbl{
+
+    margin-right: 85px;
+}
+
+.branch-lbl{
+
+    margin-right: 50px;
+}
+
+.sem-lbl{
+
+    margin-right: 28px;
+}
+
+.gender-lbl{
+
+    margin-right: 45px;
+}
+
+.loc-lbl{
+
+    margin-right: 42px;
+}
+
+.lap-lbl{
+
+    margin-right: 46px;
+}
+
+.register-btn{
+
+    margin-top: 20px;
 }

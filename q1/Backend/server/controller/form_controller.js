@@ -41,6 +41,7 @@ exports.create = (req, res) => {
         res.status(400).send({message: "content cannot be empty"})
         return;
     }
+    
     // New user
     const form = new formDB({
         name:req.body.name,

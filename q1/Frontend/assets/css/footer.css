@@ -1,0 +1,129 @@
+.footer{
+    height: 480px; 
+ /* width: 100px; */
+    border: 1px solid black;
+    margin-top: 120px;
+    border-radius: 80px 15px 0 0;
+    /* background-image: linear-gradient(to right ,#4a00e0,#8923e1); */
+    background-image: url(../images/globefooter.png);
+    background-position: center;
+    /* background-position: cover; */
+    background-size: contain;
+    color: white;
+    box-sizing: border-box;
+    padding: 50px;
+    /* background-attachment: fixed; */
+    padding-bottom: 50px;
+}
+.footer-text{
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+
+
+
+
+
+
+.footer-links{
+    /* border: 1px solid white; */
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+.footer-links h2{
+    font-size: 19px;   
+    letter-spacing: 1px; 
+}
+.footer-line1{
+    width: 50px;
+    height: 2px;
+    background: #2ab6dc ;
+    border-radius:2px;
+    margin-bottom: 20px;
+}
+.footer-links .links{
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    /* letter-spacing: 1px; */
+}
+.footer-links .links i{
+    font-size: 10px;
+    margin-top: -4px;
+    margin-right: 12px;
+}
+.footer-links .links a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-address{
+    /* border: 1px solid white; */
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-address h2{
+    font-size: 19px;
+}
+.footer-line{
+    width: 100px;
+    height: 2px;
+    background: #2ab6dc;
+    border-radius:2px;
+    margin-bottom: 20px;
+}
+#add{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 1px;
+}
+.ph-no{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+}
+.ph-no i{
+    color: rgba(255, 255, 255, 0.8);
+}
+.ph-no a, .email a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+.social-icons{
+    margin-top: 20px;
+}
+.social-icons i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #2ab6dc;
+    cursor: pointer;
+}
+
+.rights{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* padding-bottom: 10px; */
+    /* border: 1px solid red; */
+    margin-top: 25px;
+}
+.rights p{
+    /* letter-spacing: 1px; */
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+}
+
+.nav-link:visited{
+    color: #8e2de2;
+}
